@@ -20,8 +20,8 @@
 import sys
 import csv
 from random import choice
-from termcolor import colored
 from datetime import datetime
+from termcolor import colored
 
 # setup
 max_attempts = 6
