@@ -97,7 +97,7 @@ def check_guess(guess, target):
 
 # main
 # load the EN dictionary and isolate the 5-letter words
-with open("en_unigram_freq.csv", newline="") as f:
+with open("unigram_freq.csv", newline="") as f:
     reader = csv.reader(f, delimiter=",")
     records = list(reader)
 
@@ -119,21 +119,6 @@ en_words_5 = [x.upper() for x in en_words if len(x) == 5]
 # more sophisticated methods for choosing the target are possible
 # consider random.choices that allows to consider weights associated with words
 # the word frequencies could be used to make more probable the words that are less frequent
-# this way, it is possible to define the game difficulty
-target = choice(en_words_5)
-# target = "MEDAL"
-# print the target for debugging
-print("the target is: " + target)
-
-print("Welcome to WORDLE!")
-print(f"Guess the target word, you have {max_attempts} tries.")
-print("Print 'quit' to finish the game.")
-
-# list of previous attempts and colored guesses
-history = []
-colored_letters = []
-colored_tiles = []
-# current attempt
 attempt = 1
 is_guessed = False
 is_stopped = False
