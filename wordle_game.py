@@ -97,7 +97,7 @@ def check_guess(guess, target):
 
 # main
 # load the EN dictionary and isolate the 5-letter words
-with open("en_unigram_freq.csv", newline="") as f:
+with open("./dataset/en_unigram_freq.csv", newline="") as f:
     reader = csv.reader(f, delimiter=",")
     records = list(reader)
 

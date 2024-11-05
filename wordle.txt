@@ -25,3 +25,12 @@ Attempt 4: SPOIL.
 Attempt 5: HURTS.
 Attempt 6: SKOLE.
 
+Wordle is played on 05/11/2024 11:02:39.
+The target word is SHAKU.
+Attempt 1: HARDS.
+Attempt 2: MALLS.
+Attempt 3: HELLO.
+Attempt 4: CARLA.
+Attempt 5: POOPS.
+Attempt 6: CURLY.
+
