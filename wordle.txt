@@ -47,3 +47,10 @@ Wordle is played on 14/11/2024 22:05:16.
 The target word is TINER.
 Attempt 1: TENSE.
 Attempt 2: TINER.
+Wordle is played on 14/11/2024 22:08:33.
+The target word is AXIGN.
+Attempt 1: AXIGN.
+Wordle is played on 14/11/2024 22:10:17.
+The target word is ULURU.
+Attempt 1: HELLO.
+Attempt 2: ULURU.

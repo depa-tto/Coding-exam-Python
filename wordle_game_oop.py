@@ -6,9 +6,8 @@ from random import choice
 from termcolor import colored
 from datetime import datetime
 
-
 def load_dict():
-    with open("dataset/en_unigram_freq.csv", newline="") as f:
+    with open("dataset/en_unigram_freq.csv", newline="", encoding='utf-8') as f:
         reader = csv.reader(f, delimiter=",")
         records = list(reader)
 
@@ -87,7 +86,7 @@ class Wordle:
 
     def save_game(self):
         # file modalities: w (write and overwrite) - a (append) - r (read)
-        f = open("wordle.txt", "a")
+        f = open("wordle.txt", "a", encoding='utf-8')
         now = datetime.now()
         now_string = now.strftime("%d/%m/%Y %H:%M:%S")
         f.write(f"Wordle is played on {now_string}.\n")
@@ -181,8 +180,6 @@ class Wordle:
             print(f"Well done, congratulations! You did it in {attempt} tries.")
 
 
-# the use of this method avoids error on the use of open in object destroyer
-# https://stackoverflow.com/questions/26544076/how-to-achieve-file-write-open-on-del
 def wordle_creation(attempts):
     wordle = Wordle(attempts)
     wordle.play_game()
