@@ -43,3 +43,7 @@ Attempt 4: FORDS.
 Attempt 5: FASTS.
 Attempt 6: MAPPE.
 
+Wordle is played on 14/11/2024 22:05:16.
+The target word is TINER.
+Attempt 1: TENSE.
+Attempt 2: TINER.
